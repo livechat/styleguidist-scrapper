@@ -15,18 +15,18 @@ scrape(styleguideUrl: string): Promise<Array<ExampleMetadata>>
 **ExampleMetadata**
 ```js
 type ExampleMetadata = {
-	// component name
-	component: string,
-	// directory where it is located
-	dir: string,
-	// URL with isolated example
-	url: string,
-	// title for the example
-	// assumed to be paragraph above the example
-	title: string,
-	// CSS selector for the example
-	// useful for targeting screenshots
-	selector: string,
+  // component name
+  component: string,
+  // directory where it is located
+  dir: string,
+  // URL with isolated example
+  url: string,
+  // title for the example
+  // assumed to be paragraph above the example
+  title: string,
+  // CSS selector for the example
+  // useful for targeting screenshots
+  selector: string,
 }
 ```
 
@@ -37,6 +37,6 @@ const fs = require('fs')
 const scrape = require('styleguidist-scrapper')
 
 scrape('http://localhost:6060').then(examples => {
-	fs.writeFile('./examples-metadata.json', JSON.stringify(examples), 'utf8')
+  fs.writeFile('./examples-metadata.json', JSON.stringify(examples), 'utf8')
 })
 ```
