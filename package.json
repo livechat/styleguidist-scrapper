@@ -1,0 +1,26 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livechat/styleguidist-scrapper.git"
+  },
+  "keywords": [
+    "react",
+    "styleguidist",
+    "scrapping",
+    "visual-testing",
+    "components"
+  ],
+  "author": "\"Mateusz Burzyński <m.burzynski@livechatinc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/livechat/styleguidist-scrapper/issues"
+  },
+  "homepage": "https://github.com/livechat/styleguidist-scrapper#readme"
+}
